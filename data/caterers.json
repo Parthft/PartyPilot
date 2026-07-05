@@ -1,0 +1,37 @@
+[
+  {
+    "id": "c1",
+    "name": "Taste Buds Catering",
+    "cuisine": "American BBQ",
+    "price_per_person": 18,
+    "dietary_options": ["vegetarian", "gluten-free"]
+  },
+  {
+    "id": "c2",
+    "name": "Spice Route Kitchen",
+    "cuisine": "Indian",
+    "price_per_person": 14,
+    "dietary_options": ["vegetarian", "vegan", "gluten-free"]
+  },
+  {
+    "id": "c3",
+    "name": "Nonna's Table",
+    "cuisine": "Italian",
+    "price_per_person": 16,
+    "dietary_options": ["vegetarian", "gluten-free"]
+  },
+  {
+    "id": "c4",
+    "name": "Budget Bites Snack Co.",
+    "cuisine": "Finger food / snacks",
+    "price_per_person": 6,
+    "dietary_options": ["vegetarian", "vegan", "nut-free"]
+  },
+  {
+    "id": "c5",
+    "name": "Premium Plates Fine Dining",
+    "cuisine": "Contemporary Fusion",
+    "price_per_person": 35,
+    "dietary_options": ["vegetarian", "vegan", "gluten-free", "halal", "kosher"]
+  }
+]

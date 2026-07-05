@@ -1,0 +1,47 @@
+[
+  {
+    "id": "v1",
+    "name": "The Garden Terrace",
+    "type": "outdoor",
+    "capacity": 40,
+    "price_per_person": 15,
+    "city": "generic",
+    "features": ["outdoor", "garden", "string lights", "wheelchair accessible"]
+  },
+  {
+    "id": "v2",
+    "name": "Rustic Barn Hall",
+    "type": "indoor",
+    "capacity": 60,
+    "price_per_person": 12,
+    "city": "generic",
+    "features": ["indoor", "rustic", "parking", "AV equipment"]
+  },
+  {
+    "id": "v3",
+    "name": "Skyline Rooftop Lounge",
+    "type": "outdoor",
+    "capacity": 30,
+    "price_per_person": 25,
+    "city": "generic",
+    "features": ["rooftop", "bar", "city view", "premium"]
+  },
+  {
+    "id": "v4",
+    "name": "Community Center Hall",
+    "type": "indoor",
+    "capacity": 100,
+    "price_per_person": 6,
+    "city": "generic",
+    "features": ["budget-friendly", "large capacity", "kitchen access"]
+  },
+  {
+    "id": "v5",
+    "name": "Cozy Backyard Setup",
+    "type": "outdoor",
+    "capacity": 20,
+    "price_per_person": 4,
+    "city": "generic",
+    "features": ["budget-friendly", "intimate", "DIY-friendly"]
+  }
+]
