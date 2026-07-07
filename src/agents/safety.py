@@ -23,10 +23,10 @@ from dataclasses import dataclass
 # Patterns that suggest an embedded prompt-injection attempt inside free text
 # (e.g. a "guest note" field trying to hijack the agent's instructions).
 _INJECTION_PATTERNS = [
-    r"ignore (all|previous|the) instructions",
+    r"ignore\s+(all\s+|previous\s+|the\s+)*instructions",
+    r"disregard\s+(all\s+|previous\s+|the\s+)*instructions",
     r"system prompt",
     r"you are now",
-    r"disregard (all|previous)",
     r"act as (an? )?(unfiltered|jailbroken)",
 ]
 _INJECTION_RE = re.compile("|".join(_INJECTION_PATTERNS), re.IGNORECASE)
